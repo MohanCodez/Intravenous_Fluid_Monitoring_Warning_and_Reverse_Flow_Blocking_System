@@ -1,0 +1,9 @@
+  * This project, titled Intravenous Fluid Monitoring, Warning, and Reverse Flow Blocking System, is an IoT-based smart healthcare solution that automatically monitors IV fluid levels in hospitals.
+
+  * I'm uses a load cell sensor with the HX711 module to measure the weight of the IV bag and display the real-time fluid level on an LCD screen.
+
+  * The system is powered by an ESP32 microcontroller, which connects to the Blynk IoT app to send alerts to medical staff when the fluid level becomes low.
+
+  * When the IV fluid drops below a safe threshold (e.g., 5%), the system triggers a buzzer alarm and automatically closes a solenoid valve to block reverse fluid flow, preventing complications such as air entering the patient's vein.
+
+  * This project enhances patient safety, minimizes human error, and helps medical staff remotely monitor multiple patients effectively in real time.
